@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  max-width: 1570px;
+
+  &--full-screen {
+    max-width: 100%;
+  }
+
+  &__current-vents {
+    margin-bottom: 100px;
+  }
+
+  &__gallery {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: $very-large-screen-breakpoint) {
+  .container {
+    max-width: 1170px;
+
+    &--full-screen {
+      max-width: 100%;
+    }
+  }
+}

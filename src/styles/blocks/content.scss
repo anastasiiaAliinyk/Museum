@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  align-items: center;
+
+  &--right {
+    flex-direction: row-reverse;
+  }
+
+  &__picture {
+    margin-right: 130px;
+    width: 870px;
+    height: 520px;
+    object-position: center;
+    object-fit: cover;
+
+    &--right {
+      margin-right: 0;
+      margin-left: 130px;
+    }
+  }
+}
+
+@media screen and (max-width: $very-large-screen-breakpoint) {
+  .content {
+    &__picture {
+      width: 670px;
+    }
+  }
+}

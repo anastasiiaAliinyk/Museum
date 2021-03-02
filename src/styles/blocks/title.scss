@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  font-family: "IBM Plex Sans", sans-serif;
+
+  &__heading {
+    margin-right: 26px;
+
+    font-weight: 500;
+    color: $c-light-gray;
+    text-transform: uppercase;
+
+    &--romantism {
+      margin-right: 146px;
+    }
+  }
+
+  &__date {
+    font-weight: 700;
+    color: $c-green;
+  }
+}

@@ -1,0 +1,10 @@
+@import "./blocks/title";
+@import "./blocks/text";
+
+.description {
+  width: 370px;
+
+  &__title {
+    margin-bottom: 32px;
+  }
+}
