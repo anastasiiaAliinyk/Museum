@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: $very-large-screen-breakpoint) {
   .pictures {
     grid-template-columns: 370px 770px;
 
@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (max-width: $large-screem-breakpoint) {
+@media screen and (max-width: $large-screen-breakpoint) {
   .pictures {
     grid-template-columns: repeat(3, 340px);
     grid-template-rows: 543px;

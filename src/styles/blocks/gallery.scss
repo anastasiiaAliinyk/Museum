@@ -1,8 +1,6 @@
 @import "./pictures";
 
 .gallery {
-  padding: 0 5% 200px;
-
   &__title {
     margin-bottom: 60px;
 
@@ -35,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: $large-screem-breakpoint) {
+@media screen and (max-width: $large-screen-breakpoint) {
   .gallery {
     padding-bottom: 110px;
 

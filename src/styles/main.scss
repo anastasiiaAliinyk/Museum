@@ -3,9 +3,16 @@
 @import "utils";
 @import "fonts";
 
-@import "./blocks/header";
+//MAIN CONTENT
+@import "./blocks/main";
+@import "./blocks/container";
 @import "./blocks/current-events";
+@import "./blocks/content";
+@import "./blocks/description";
 @import "./blocks/romantism";
 @import "./blocks/gallery";
-@import "./blocks/subscribe";
-@import "./blocks/footer";
+
+// @import "./blocks/romantism";
+// @import "./blocks/gallery";
+// @import "./blocks/subscribe";
+// @import "./blocks/footer";
