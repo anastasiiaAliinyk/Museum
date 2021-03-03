@@ -20,10 +20,32 @@
   }
 }
 
-@media screen and (max-width: $very-large-screen-breakpoint) {
+@media screen and (max-width: $large-screen-breakpoint) {
   .content {
     &__picture {
       width: 670px;
+    }
+  }
+}
+
+@media screen and (max-width: $medium-screen-breakpoint) {
+  .content {
+    flex-direction: column;
+    align-items: start;
+
+    &__picture {
+      margin: 0 0 30px;
+      width: 700px;
+    }
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .content {
+
+    &__picture {
+      height: 210px;
+      width: 100%;
     }
   }
 }

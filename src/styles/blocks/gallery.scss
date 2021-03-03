@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: $large-screen-breakpoint) {
+@media screen and (max-width: $medium-screen-breakpoint) {
   .gallery {
     padding-bottom: 110px;
 
@@ -43,12 +43,12 @@
   }
 }
 
-@media screen and (max-width: $mobile-screen-breakpoint) {
+@media screen and (max-width: $medium-screen-breakpoint) {
   .gallery {
-    text-align: center;
-
     &__title {
-      font-size: 3rem;
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 36px;
     }
   }
 }

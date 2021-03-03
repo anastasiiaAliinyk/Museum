@@ -24,8 +24,24 @@
   }
 }
 
-@media screen and (max-width: $very-large-screen-breakpoint) {
+@media screen and (max-width: $large-screen-breakpoint) {
   .romantism {
-    height: 620px;
+    &__background {
+      height: 620px;
+    }
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .romantism {
+    &__background {
+      height: 210px;
+    }
+
+    &__description {
+      padding: 25px 20px 40px;
+      width: max-content;
+      height: max-content;
+    }
   }
 }

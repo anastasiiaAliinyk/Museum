@@ -11,3 +11,17 @@
     margin-bottom: 100px;
   }
 }
+
+@media screen and (max-width: $medium-screen-breakpoint) {
+  .current-events {
+    &__heading {
+      margin-bottom: 40px;
+      text-align: center;
+      font-size: 36px;
+    }
+
+    &__content {
+      margin-bottom: 60px;
+    }
+  }
+}

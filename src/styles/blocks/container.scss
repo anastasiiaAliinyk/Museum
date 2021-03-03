@@ -15,12 +15,34 @@
   }
 }
 
-@media screen and (max-width: $very-large-screen-breakpoint) {
+@media screen and (max-width: $large-screen-breakpoint) {
   .container {
     max-width: 1170px;
 
     &--full-screen {
       max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: $medium-screen-breakpoint) {
+  .container {
+    max-width: 700px;
+
+    &--full-screen {
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .container {
+    padding: 0 5%;
+    width: 100%;
+
+    &--full-screen {
+      max-width: 100%;
+      padding: 0;
     }
   }
 }

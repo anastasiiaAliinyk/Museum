@@ -27,3 +27,16 @@
     color: $c-gray;
   }
 }
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .text {
+    &__heading {
+      font-size: 28px;
+
+      &-romantism {
+        width: 235px;
+        font-size: 28px;
+      }
+    }
+  }
+}
